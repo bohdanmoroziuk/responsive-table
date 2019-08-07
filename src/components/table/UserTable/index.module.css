@@ -1,0 +1,40 @@
+.user-table {
+  border-collapse: collapse;
+  text-align: left;
+  width: 100%;
+}
+
+.user-table__head {
+  
+}
+
+.user-table__body {}
+
+.user-table__heading,
+.user-table__cell {
+  padding: 10px 20px;
+}
+
+.user-table__heading {}
+
+.user-table__row {
+  background-color: #fff;
+  border-bottom: 1px solid #555; 
+}
+
+.user-table__cell {}
+
+.user-table__label {
+  background-color: #eee;
+  color: dimgray;
+  display: none;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 5px;
+  position: absolute;
+  text-transform: uppercase;
+  top: 0;
+  left: 0;
+}
+
+.user-table__value {}
