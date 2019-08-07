@@ -38,3 +38,36 @@
 }
 
 .user-table__value {}
+
+@media (max-width: 718px) {
+  .user-table__head {
+    left: -9999px;
+    position: absolute;
+    visibility: hidden;
+  }
+
+  .user-table__row {
+    border-bottom: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+
+  .user-table__cell {
+    border: 1px solid #555;
+    margin: 0 -1px -1px 0;
+    padding-top: 35px;
+    position: relative;
+    width: 50%;
+  }
+
+  .user-table__label {
+    display: block;
+  }
+}
+
+@media (max-width: 458px) {
+  .user-table__cell { 
+    width: 100%;
+  }
+}
