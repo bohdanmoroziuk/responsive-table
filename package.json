@@ -1,6 +1,7 @@
 {
   "name": "responsive-table",
   "version": "0.1.0",
+  "description": "Fully responsive table built with Inferno.js and CSS Modules",
   "private": true,
   "dependencies": {
     "inferno": "^7.2.1",
